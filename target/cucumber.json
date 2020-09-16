@@ -1,0 +1,157 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Submit valid data via contact us form",
+        "description": "",
+        "id": "submit-data-to-the-webdriveruniversity.com-using-contact-us;submit-valid-data-via-contact-us-form",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I access webdriveruniversity contact us form",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I enter a valid date first name",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I enter a valid date last name",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "woods",
+                  "jackson",
+                  "jones"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I enter a valid email address",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "I enter a comments",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "Ejemplo de lo que puede escribir en la linea 1",
+                  "Ejemplo de lo que puede escribir en la linea  2"
+                ],
+                "line": 11
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I click on the submit button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "the information should successfuly be sumitted via the contact us form",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Submit data to the webdriveruniversity.com using contact us",
+    "description": "form",
+    "id": "submit-data-to-the-webdriveruniversity.com-using-contact-us",
+    "keyword": "Feature",
+    "uri": "ContactUs.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Valida promo code alert is visible when clicking on the special offers link",
+        "description": "",
+        "id": "products;valida-promo-code-alert-is-visible-when-clicking-on-the-special-offers-link;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user navigates to \"http://www.webdriveruniversity.com/Page-Object-Model/products.html\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user click on \"#container-special-offers\"",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user shoul be presented with a promo alert",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Products",
+    "description": "",
+    "id": "products",
+    "keyword": "Feature",
+    "uri": "Products.feature"
+  }
+]
